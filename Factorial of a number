@@ -4,6 +4,6 @@ def factorial(n):
     else:
         return n * factorial(n - 1)
 
-n = int(input("Enter a number: "))
-result = factorial(n)
-print(f"The factorial of {n} is: {result}")
+num = int(input("Enter a number: "))
+result = factorial(num)
+print(f"The factorial of {num} is: {result}")
